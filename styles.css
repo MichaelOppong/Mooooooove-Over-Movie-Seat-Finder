@@ -1,0 +1,35 @@
+h2 {
+    text-align: center;
+}
+
+/* TASK 2: INCLUDE CSS BELOW TO POSITION YOUR MOVIE POSTERS */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+  
+}
+
+.movie img {
+    height: 400px;
+    width: 200px;
+}
+.container{
+    text-align:center;   
+}
+
+#seatsSelection {
+    display: flex;
+    justify-content: center;
+}
+
+.seat {
+    display: block;
+    padding: 25px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#checkout {
+    text-align: center;
+}
