@@ -104,6 +104,6 @@ for (var i = 0; i < seatsAvailable.length; i++) {
 // If the user selects a seat that is not available, display a message indicating they must choose another seat.
 $("#checkoutButton").click(function(){
    $("body").hide();
-    $("body").css("background-image","url('https://imgc.allpostersimages.com/img/print/posters/conrad-knutsen-enjoy-the-show_a-G-5121194-0.jpg')");
+    $("html").css("background-image","url('https://imgc.allpostersimages.com/img/print/posters/conrad-knutsen-enjoy-the-show_a-G-5121194-0.jpg')");
 
 });
